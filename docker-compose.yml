@@ -15,6 +15,7 @@ services:
     command: mongod
     env_file: ./mongo_db/.env
     volumes:
+      - ./mongo_db/import:/tmp/import
       - ./mongo_db/data:/data/db
       - ./mongo_db/init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh
     networks:
