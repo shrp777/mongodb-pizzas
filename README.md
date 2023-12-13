@@ -6,7 +6,7 @@
 mongosh admin --username <user> --password <password> --port <port>
 ```
 
-- Exemple
+- Exemple :
 
 ```SH
 mongosh admin --username us3r --password ap4ssw0rd --port <port>
